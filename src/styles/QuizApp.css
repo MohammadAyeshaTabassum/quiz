@@ -1,0 +1,118 @@
+/* Container styles */
+.quiz-app {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* Gradient background */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Timer styles */
+.timer {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Quiz item styles */
+.quiz-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #ffffff; /* White background for quiz items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-item p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Options styles */
+.options {
+  margin-top: 10px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.options input {
+  margin-right: 10px;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff; /* Blue color for buttons */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+  transform: scale(1.05);
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color for popup buttons */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+  transform: scale(1.05);
+}
